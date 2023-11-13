@@ -43,6 +43,11 @@ namespace ShapeAreaCalculator
                     }
             
                 }
+
+                else if (typeof(T) == typeof(Circle))
+                {
+                    shape = new Circle(parameters[0]);
+                }
             }
             catch(Exception ex)
             {
