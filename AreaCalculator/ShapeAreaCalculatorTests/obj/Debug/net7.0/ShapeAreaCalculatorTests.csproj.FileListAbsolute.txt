@@ -104,3 +104,4 @@ C:\Users\arcti\OneDrive\Рабочий стол\TestCalculator\AreaCalculator\Sh
 C:\Users\arcti\OneDrive\Рабочий стол\TestCalculator\AreaCalculator\ShapeAreaCalculatorTests\obj\Debug\net7.0\ShapeAreaCalculatorTests.pdb
 C:\Users\arcti\OneDrive\Рабочий стол\TestCalculator\AreaCalculator\ShapeAreaCalculatorTests\obj\Debug\net7.0\ShapeAreaCalculatorTests.genruntimeconfig.cache
 C:\Users\arcti\OneDrive\Рабочий стол\TestCalculator\AreaCalculator\ShapeAreaCalculatorTests\obj\Debug\net7.0\ref\ShapeAreaCalculatorTests.dll
+C:\Users\arcti\OneDrive\Рабочий стол\TestCalculator\AreaCalculator\ShapeAreaCalculatorTests\bin\Debug\net7.0\nunit.framework.dll
