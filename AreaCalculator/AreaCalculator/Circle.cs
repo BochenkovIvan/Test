@@ -12,6 +12,8 @@ namespace ShapeAreaCalculator
 
         public Circle( double radius)
         {
+            if (radius <= 0)
+                throw new ArgumentException("Radius should be greater than zero.");
             _radius = radius;
         }
 
