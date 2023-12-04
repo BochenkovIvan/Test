@@ -2,16 +2,29 @@
 using ShapeAreaCalculator;
 using System.Runtime.InteropServices;
 
-internal class Program
+namespace TestConsoleCalc
 {
-    private static void Main(string[] args)
+    public class Program
     {
-        IShapeFactory shapeFactory = new ShapeFactory();
+        private static void Main(string[] args)
+        {
+            Calculator<Shape> calc = new();
+            IShapeFactory shapeFactory = new ShapeFactory();
 
-        Shape shape1 = shapeFactory.CreateShape(25);
+            Shape shape1 = shapeFactory.CreateShape(1);
+            Shape shape2 = shapeFactory.CreateShape(2, 3, 4);
 
-        double areaShape1 = shape1.CalculateArea();
+            double areaShape1 = calc.areaMeth(shape1);
+            double areaShape2 = calc.areaMeth(shape2);
 
-        Console.WriteLine(areaShape1);
+            WriteLine(areaShape1);
+            WriteLine(areaShape2);
+            
+
+
+
+        }
+
+
     }
 }
